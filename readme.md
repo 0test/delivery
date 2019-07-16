@@ -1,6 +1,6 @@
 <p>Example:</p>
 
-<code>
+```javascript
 	$(document).ready(function(){
 		$("select").change( function() {
 			//отправка полей формы оформления заказа shopOrderForm в плагин
@@ -9,4 +9,4 @@
 		//обновление корзины после загрузки или перезагрузки страницы, например
 		jQuery.fillCart($('#shopOrderForm'));
 	});
-</code>
+```
